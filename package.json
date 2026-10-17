@@ -1,0 +1,10 @@
+{
+  "name": "japan-trip-app",
+  "private": true,
+  "type": "module",
+  "description": "Japan in December: trip map and planner (GitHub Pages app reading the private japan-trip-data repo).",
+  "scripts": {
+    "test": "node --test tests/app.test.mjs",
+    "demo": "node tools/make_demo.mjs && python -m http.server 8767 --bind 127.0.0.1 --directory docs"
+  }
+}
